@@ -1,0 +1,30 @@
+{
+  "name": "temoji",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "vite:dev": "vite",
+    "vite:build": "vite build",
+    "vite:preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build:verbose": "tauri build -v",
+    "tauri:dev:verbose": "tauri dev -v"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "unicode-emoji": "^2.4.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.2.3",
+    "@types/node": "^18.7.10",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^3.0.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.2.1"
+  }
+}

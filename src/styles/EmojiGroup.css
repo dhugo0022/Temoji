@@ -1,0 +1,44 @@
+:root {
+  --default-emoji-group-emoji-font-size: 25px;
+  --emoji-group-container-background-color: var(--group-bar-background-color);
+}
+
+.emoji-group-container {
+  height: 100%;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  overflow: hidden;
+  background-color: var(--emoji-group-container-background-color)
+}
+
+.emoji-group {
+  height: 100%;
+  width: 90%;
+  overflow: scroll;
+}
+
+.emoji-group-title {
+  color: grey;
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.emoji-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  overflow: scroll;
+}
+
+.emoji-list > .emoji-list-item {
+  margin: 0;
+  padding: 0;
+  padding-top: 1px;
+  font-size: var(--default-emoji-group-emoji-font-size);
+  border: none;
+  background-color: unset;
+}

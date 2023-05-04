@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after {
+  font-family: 'Courier New', Courier, monospace;
+  /* Prevents the aditional padding from creating a horizontal scroll */
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  /* Prevents from selecting the text */
+  user-select: none;
+  /* This is necessary for it to work properly on Linux's libwebkit2gtk-4.0-dev */
+  -webkit-user-select: none;
+}

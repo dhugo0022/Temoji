@@ -1,0 +1,27 @@
+:root {
+  --group-bar-background-color: rgba(245, 244, 249, 255);
+  --group-bar-item-selected-background-color: rgba(219, 219, 225, 255)/*rgba(228, 228, 239, 255)*/;
+  --default-group-bar-emoji-font-size: 17px;
+}
+
+.group-bar {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--group-bar-background-color);
+}
+
+.group-bar-item {
+  height: 100%;
+  width: 40px;
+  font-size: var(--default-group-bar-emoji-font-size);
+  border: none;
+  background-color: unset;
+}
+
+.group-bar-item.selected {
+  border-width: 5px;
+  border-radius: 50%;
+  background-color: var(--group-bar-item-selected-background-color);
+}

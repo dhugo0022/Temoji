@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  grid-template:
+    "div" 10%
+    "div" auto
+    "div" 10%;
+  /* Prevents the children of content from overflowing the grid display */
+  grid-template-columns: minmax(0, 1fr);
+}
