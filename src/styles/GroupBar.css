@@ -1,6 +1,6 @@
 :root {
   --group-bar-background-color: rgba(245, 244, 249, 255);
-  --group-bar-item-selected-background-color: rgba(219, 219, 225, 255)/*rgba(228, 228, 239, 255)*/;
+  --group-bar-item-selected-background-color: rgba(219, 219, 225, 255);
   --default-group-bar-emoji-font-size: 17px;
 }
 
