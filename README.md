@@ -1,4 +1,7 @@
-# Temoji
+<p align="center">
+  <img alt="Temoji Logo" src="assets/temoji-logo.svg" height="100" width="100"/>
+</p>
+  <h1 align="center">Temoji</h1>
 
 ### Features:
 Current it's basically all the features a normal Emoji Picker
@@ -21,6 +24,9 @@ would have...
     - [ ] App opens when system is initiated
 - [ ] Dark mode
 - [ ] Pre-compiled binaries
+
+### Showcase:
+![Main Window](assets/temoji-example.png)
 
 ### Build it yourself:
 Soon...
