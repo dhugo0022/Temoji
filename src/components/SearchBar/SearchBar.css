@@ -1,0 +1,23 @@
+:root {
+  --search-bar-background-color: var(--group-bar-background-color);
+  --search-field-border-color: rgba(188, 185, 186, 255);
+  --search-field-background-color: rgba(202, 199, 200, 255);
+  --search-field-placeholder-color: rgba(139, 136, 139, 255);
+}
+
+#search-field {
+  height: 80%;
+  width: 75%;
+  padding: 8px;
+
+  border: 1px solid var(--search-field-border-color);
+  border-radius: 5px;
+
+  font-size: medium;
+  color: black;
+  background-color: var(--search-field-background-color);
+}
+
+#search-field::placeholder {
+  color: var(--search-field-placeholder-color);
+}

@@ -1,6 +1,6 @@
 :root {
   --group-bar-background-color: rgba(245, 244, 249, 255);
-  --group-bar-item-selected-background-color: rgba(219, 219, 225, 255);
+  --group-bar-item-selected-background-color: rgba(105, 105, 105, 1);
   --default-group-bar-emoji-font-size: 17px;
 }
 
@@ -14,14 +14,16 @@
 
 .group-bar-item {
   height: 100%;
-  width: 40px;
+  width: 15%;
   font-size: var(--default-group-bar-emoji-font-size);
   border: none;
   background-color: unset;
 }
 
 .group-bar-item.selected {
-  border-width: 5px;
-  border-radius: 50%;
-  background-color: var(--group-bar-item-selected-background-color);
+  background: linear-gradient(to top,
+      transparent 3px,
+      var(--group-bar-item-selected-background-color) 1px,
+      var(--group-bar-item-selected-background-color) 6px,
+      transparent 3px)
 }

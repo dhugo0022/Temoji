@@ -1,0 +1,22 @@
+/* Block selecting */
+
+.shortcut::selection {
+  background-color: transparent;
+}
+
+/* Block selecting */
+
+.shortcut.unset {
+  color: transparent;
+  text-shadow: 0 0 0 grey;
+}
+
+.shortcut.set {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+}
+
+.shortcut.recording {
+  color: transparent;
+  text-shadow: 0 0 0 crimson;
+}

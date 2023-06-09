@@ -6,19 +6,20 @@
 .emoji-group-container {
   height: 100%;
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  
-  overflow: hidden;
+
+  gap: 10px;
+
+  overflow: scroll;
   background-color: var(--emoji-group-container-background-color)
 }
 
 .emoji-group {
-  height: 100%;
   width: 90%;
-  overflow: scroll;
+  height: auto;
 }
 
 .emoji-group-title {
@@ -31,14 +32,29 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  overflow: scroll;
 }
 
-.emoji-list > .emoji-list-item {
+.emoji-list-item {
   margin: 0;
   padding: 0;
   padding-top: 1px;
   font-size: var(--default-emoji-group-emoji-font-size);
   border: none;
   background-color: unset;
+}
+
+.emoji-list-item.varied {
+  background: linear-gradient(to bottom left,
+      black,
+      black 1px,
+      black 4px,
+      transparent 3px)
+}
+
+
+.hidden {
+  visibility: hidden;
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
 }
