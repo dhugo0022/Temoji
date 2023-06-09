@@ -12,14 +12,29 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false,
       "clipboard": {
-        "all": false,
         "writeText": true
       },
       "dialog": {
-        "all": false,
         "message": true
+      },
+      "fs": {
+        "readFile": true,
+        "writeFile": true,
+        "createDir": true,
+        "exists": true,
+        "scope": [
+          "$APPCONFIG",
+          "$APPCONFIG/**",
+          "$APPDATA",
+          "$APPDATA/**"
+        ]
+      },
+      "globalShortcut": {
+        "all": true
+      },
+      "os": {
+        "all": true
       }
     },
     "bundle": {
@@ -46,7 +61,8 @@
         "resizable": false,
         "title": "Temoji",
         "width": 350,
-        "height": 400
+        "height": 400,
+        "center": true
       }
     ]
   }
