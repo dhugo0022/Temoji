@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "An easy to get emojis on any platform"
 authors = ["dhugo0022"]
 license = "MIT"
-repository = ""
+repository = "https://github.com/dhugo0022/Temoji"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -13,7 +13,7 @@ edition = "2021"
 tauri-build = { version = "1.2", features = [] }
 
 [dependencies]
-tauri = { version = "1.2", features = ["clipboard-write-text", "dialog-message"] }
+tauri = { version = "1.2", features = ["clipboard-write-text", "dialog-message", "fs-create-dir", "fs-exists", "fs-read-file", "fs-write-file", "global-shortcut-all", "os-all"] }
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 
