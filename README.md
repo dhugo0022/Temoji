@@ -13,16 +13,16 @@ would have...
   - [x] Keys
 
 ### Planned changes & features:
-- [ ] Separate the emoji groups by links (there will only be one page containing all the emojis) instead of filtering them every time a group is clicked
-- [ ] Improve the way you get skin toned emojis (a popup, containing the coloured emojis instead of pre-selecting on the seach bar, will be shown)
-- [ ] Custom settings
-  - [ ] Shortcuts
-  - [ ] Preferred skin tone
-  - [ ] System tray implementation
-    - [ ] Custom right-click behavior (the usual...)
-    - [ ] App stay opens in the background
-    - [ ] App opens when system is initiated
-- [ ] Dark mode
+- [x] Separate the emoji groups by links (there will only be one page containing all the emojis) instead of filtering them every time a group is clicked
+- [x] Improve the way you get skin toned emojis (a popup, containing the coloured emojis instead of pre-selecting on the seach bar, will be shown)
+- [x] Custom settings
+  - [x] Shortcuts
+  - [x] Default skin tone
+  - [x] Theme (light and dark)
+- [ ] System tray implementation
+  - [ ] Custom right-click behavior (the usual...)
+  - [ ] App stay opens in the background
+  - [ ] App opens when system is initiated
 - [ ] Pre-compiled binaries
 
 ### Showcase:
